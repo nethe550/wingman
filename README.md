@@ -2,9 +2,9 @@
 
 An extensible HTML DOM window manager with a professional look and feel.
 
-<img width="20%" src="./images/dark-mode.png" alt="Wingman (Dark Mode)" />
+<img src="./images/dark-mode.png" alt="Wingman (Dark Mode)" />
 <br />
-<img width="20%" src="./images/light-mode.png" alt="Wingman (Light Mode)" />
+<img src="./images/light-mode.png" alt="Wingman (Light Mode)" />
 
 ## Installation
 Wingman only requires two files: `wingman.css` and `wingman.js`.
