@@ -380,11 +380,11 @@ class Wingman {
         this.window.style.minWidth = `${this.options.minWidth}px`;
         this.window.style.minHeight = `${this.options.minHeight}px`;
 
+        // find container element, if it exists (similar to jQuery .closest() method)
+        this.windowContainer = this.window.closest('.wingman-container');
+        
         if (this.options.centered) {
             if (this.options.debug) this.info('Centering window...');
-
-            // find container element, if it exists (similar to jQuery .closest() method)
-            this.windowContainer = this.window.closest('.wingman-container');
 
             if (this.windowContainer) {
                 const x = Math.round(
